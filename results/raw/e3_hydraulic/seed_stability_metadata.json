@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    17,
+    29,
+    43,
+    71,
+    101
+  ],
+  "attack_supports_per_seed": 153,
+  "audit_supports_per_seed": 1333,
+  "tasks": 4,
+  "budgets": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "comparison_note": "rank and sigma_min are task-independent within each support; gamma and h are task-conditioned",
+  "task_metric_example_support": "TS4+VS1"
+}

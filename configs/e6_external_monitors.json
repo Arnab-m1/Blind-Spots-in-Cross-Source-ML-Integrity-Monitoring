@@ -1,0 +1,16 @@
+{
+  "protocol_version": "2026-09-21-p1-v1",
+  "split_seed": 17,
+  "sequence_seconds": 60,
+  "window": 10,
+  "support_pair_count": 15,
+  "support_sampling_seed": 2027,
+  "evaluation_cycles": 80,
+  "budgets": [0.1, 0.25, 0.5],
+  "alarm_quantile": 0.95,
+  "models": {
+    "gdn": {"epochs": 8, "batch_size": 256, "embedding_dim": 16, "hidden_dim": 32, "top_k": 5, "learning_rate": 0.001},
+    "tranad": {"epochs": 8, "batch_size": 256, "model_dim": 32, "heads": 4, "layers": 1, "learning_rate": 0.001}
+  },
+  "derived_channel_policy": "independent telemetry; measured-channel edits do not propagate to CE, CP, or SE"
+}

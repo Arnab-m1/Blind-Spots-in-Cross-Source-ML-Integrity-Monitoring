@@ -1,0 +1,13 @@
+monitor,attack,budget,median_adverse,median_alarm,median_joint,max_joint
+gdn,A2_generic_stealth,0.1,0.0,0.0,0.0,1.0
+gdn,A2_generic_stealth,0.25,0.0,0.0,0.0,1.0
+gdn,A2_generic_stealth,0.5,0.0,0.0,0.0,1.0
+gdn,A4_task_conditioned,0.1,0.0,0.0,0.0,1.0
+gdn,A4_task_conditioned,0.25,0.0,0.0,0.0,1.0
+gdn,A4_task_conditioned,0.5,0.0,0.0,0.0,1.0
+tranad,A2_generic_stealth,0.1,0.0,0.0,0.0,1.0
+tranad,A2_generic_stealth,0.25,0.0,0.0,0.0,1.0
+tranad,A2_generic_stealth,0.5,0.0,0.0,0.0,1.0
+tranad,A4_task_conditioned,0.1,0.0,0.0,0.0,1.0
+tranad,A4_task_conditioned,0.25,0.0,0.0,0.0,1.0
+tranad,A4_task_conditioned,0.5,0.0,0.0,0.0,1.0

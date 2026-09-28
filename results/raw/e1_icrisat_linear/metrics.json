@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "rank_rtol": 1e-10,
+  "features": [
+    "rainfall",
+    "temperature",
+    "irrigated_area_1kha",
+    "n_fertilizer_tons",
+    "acreage"
+  ],
+  "rows": {
+    "train": 7679,
+    "validation": 888,
+    "test": 2002
+  },
+  "years": {
+    "train_end": 2008,
+    "validation": [
+      2009,
+      2010
+    ],
+    "test_start": 2011
+  },
+  "clean": {
+    "r2": 0.49089706063822836,
+    "mae_standardized": 0.5657715379018824,
+    "rmse_standardized": 0.7682892244423201,
+    "monitor_fpr": 0.052947052947052944,
+    "validation_threshold": 14.785651394163809
+  },
+  "supports": 31,
+  "blind_supports": 6
+}

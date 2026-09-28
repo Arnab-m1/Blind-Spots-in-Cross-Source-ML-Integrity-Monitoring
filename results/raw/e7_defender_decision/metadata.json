@@ -1,0 +1,27 @@
+{
+  "protocol": {
+    "protocol_version": "2026-09-21-p2-v1",
+    "source_selection_partition": "development support groups",
+    "risk_evaluation_partition": "held-out evaluation support groups",
+    "protection_budgets": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "attack_budget": 0.5,
+    "random_seed": 2027,
+    "methods": [
+      "random",
+      "conditioning",
+      "task_gradient",
+      "local_margin",
+      "finite_audit_guided"
+    ],
+    "anchor_semantics": "a protected source exposes direct gain and scaled-bias integrity checks"
+  },
+  "p0_label_protocol": "2026-09-21-p0c-v1",
+  "runtime_seconds": 28.3423232669993,
+  "finite_reruns": 328,
+  "invalid_rerun_rate": 0.0
+}

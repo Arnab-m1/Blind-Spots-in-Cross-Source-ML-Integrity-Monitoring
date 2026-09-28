@@ -1,0 +1,712 @@
+{
+  "cycles": 2205,
+  "physical_sources": 17,
+  "features_per_source": 5,
+  "feature_columns": 85,
+  "mean_only_columns": 17,
+  "targets": [
+    "cooler",
+    "valve",
+    "pump",
+    "accumulator",
+    "stable_flag"
+  ],
+  "sensors": [
+    {
+      "name": "PS1",
+      "quantity": "pressure",
+      "unit": "bar",
+      "sampling_hz": 100
+    },
+    {
+      "name": "PS2",
+      "quantity": "pressure",
+      "unit": "bar",
+      "sampling_hz": 100
+    },
+    {
+      "name": "PS3",
+      "quantity": "pressure",
+      "unit": "bar",
+      "sampling_hz": 100
+    },
+    {
+      "name": "PS4",
+      "quantity": "pressure",
+      "unit": "bar",
+      "sampling_hz": 100
+    },
+    {
+      "name": "PS5",
+      "quantity": "pressure",
+      "unit": "bar",
+      "sampling_hz": 100
+    },
+    {
+      "name": "PS6",
+      "quantity": "pressure",
+      "unit": "bar",
+      "sampling_hz": 100
+    },
+    {
+      "name": "EPS1",
+      "quantity": "motor_power",
+      "unit": "W",
+      "sampling_hz": 100
+    },
+    {
+      "name": "FS1",
+      "quantity": "volume_flow",
+      "unit": "l/min",
+      "sampling_hz": 10
+    },
+    {
+      "name": "FS2",
+      "quantity": "volume_flow",
+      "unit": "l/min",
+      "sampling_hz": 10
+    },
+    {
+      "name": "TS1",
+      "quantity": "temperature",
+      "unit": "degC",
+      "sampling_hz": 1
+    },
+    {
+      "name": "TS2",
+      "quantity": "temperature",
+      "unit": "degC",
+      "sampling_hz": 1
+    },
+    {
+      "name": "TS3",
+      "quantity": "temperature",
+      "unit": "degC",
+      "sampling_hz": 1
+    },
+    {
+      "name": "TS4",
+      "quantity": "temperature",
+      "unit": "degC",
+      "sampling_hz": 1
+    },
+    {
+      "name": "VS1",
+      "quantity": "vibration",
+      "unit": "mm/s",
+      "sampling_hz": 1
+    },
+    {
+      "name": "CE",
+      "quantity": "cooling_efficiency",
+      "unit": "percent",
+      "sampling_hz": 1
+    },
+    {
+      "name": "CP",
+      "quantity": "cooling_power",
+      "unit": "kW",
+      "sampling_hz": 1
+    },
+    {
+      "name": "SE",
+      "quantity": "efficiency_factor",
+      "unit": "percent",
+      "sampling_hz": 1
+    }
+  ],
+  "split_seeds": [
+    17,
+    29,
+    43,
+    71,
+    101
+  ],
+  "split_audits": {
+    "17": {
+      "train": {
+        "rows": 1325,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "validation": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "test": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "disjoint_and_complete": true
+    },
+    "29": {
+      "train": {
+        "rows": 1330,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "validation": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "test": {
+        "rows": 435,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "disjoint_and_complete": true
+    },
+    "43": {
+      "train": {
+        "rows": 1325,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "validation": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "test": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "disjoint_and_complete": true
+    },
+    "71": {
+      "train": {
+        "rows": 1325,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "validation": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "test": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "disjoint_and_complete": true
+    },
+    "101": {
+      "train": {
+        "rows": 1325,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "validation": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "test": {
+        "rows": 440,
+        "class_values": [
+          [
+            3,
+            20,
+            100
+          ],
+          [
+            73,
+            80,
+            90,
+            100
+          ],
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            90,
+            100,
+            115,
+            130
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "covers_all_global_classes": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "disjoint_and_complete": true
+    }
+  }
+}

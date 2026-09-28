@@ -1,0 +1,7 @@
+monitor,k,precision_at_k,failures_found,total_failures
+gdn,5,1.0,5,24
+gdn,10,1.0,10,24
+gdn,20,0.8,16,24
+tranad,5,1.0,5,30
+tranad,10,1.0,10,30
+tranad,20,0.8,16,30

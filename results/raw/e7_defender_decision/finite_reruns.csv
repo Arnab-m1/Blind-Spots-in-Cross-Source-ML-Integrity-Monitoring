@@ -1,0 +1,329 @@
+case_id,seed,method,protection_budget,residual_support,verified_failure,feasible,status
+17:1610:EPS1+TS1:accumulator,17,random,1,EPS1,True,True,Optimization terminated successfully
+17:859:TS1+CE:cooler,17,random,1,CE,True,True,Optimization terminated successfully
+17:1864:TS1+CE:accumulator,17,random,1,CE,True,True,Optimization terminated successfully
+17:495:PS4+PS6:valve,17,random,2,PS4,True,True,Optimization terminated successfully
+17:1610:EPS1+TS1:accumulator,17,random,2,EPS1,True,True,Optimization terminated successfully
+17:859:TS1+CE:cooler,17,random,2,CE,True,True,Optimization terminated successfully
+17:1864:TS1+CE:accumulator,17,random,2,CE,True,True,Optimization terminated successfully
+17:495:PS4+PS6:valve,17,random,3,PS4,True,True,Optimization terminated successfully
+17:1194:PS4+EPS1:accumulator,17,random,3,PS4,False,True,Optimization terminated successfully
+17:2085:PS5+EPS1:pump,17,random,3,PS5,True,True,Optimization terminated successfully
+17:365:PS5+EPS1:accumulator,17,random,3,PS5,False,True,Optimization terminated successfully
+17:1610:EPS1+TS1:accumulator,17,random,3,,False,True,empty_residual_support
+17:1286:EPS1+TS2:accumulator,17,random,3,TS2,True,True,Optimization terminated successfully
+17:1694:EPS1+TS3:valve,17,random,3,TS3,True,True,Optimization terminated successfully
+17:1908:EPS1+TS3:accumulator,17,random,3,TS3,False,True,Optimization terminated successfully
+17:859:TS1+CE:cooler,17,random,3,CE,True,True,Optimization terminated successfully
+17:1864:TS1+CE:accumulator,17,random,3,CE,True,True,Optimization terminated successfully
+17:393:SE:accumulator,17,conditioning,1,,False,True,empty_residual_support
+17:1833:TS4+SE:pump,17,conditioning,1,TS4,True,True,Optimization terminated successfully
+17:1692:PS2:valve,17,conditioning,2,,False,True,empty_residual_support
+17:393:SE:accumulator,17,conditioning,2,,False,True,empty_residual_support
+17:1833:TS4+SE:pump,17,conditioning,2,TS4,True,True,Optimization terminated successfully
+17:1692:PS2:valve,17,conditioning,3,,False,True,empty_residual_support
+17:559:PS3:accumulator,17,conditioning,3,,False,True,empty_residual_support
+17:393:SE:accumulator,17,conditioning,3,,False,True,empty_residual_support
+17:1154:PS3+PS4:accumulator,17,conditioning,3,PS4,False,True,Optimization terminated successfully
+17:1833:TS4+SE:pump,17,conditioning,3,TS4,True,True,Optimization terminated successfully
+17:379:FS1+FS2:pump,17,task_gradient,1,FS2,True,True,Optimization terminated successfully
+17:1926:FS1+FS2:accumulator,17,task_gradient,1,FS2,True,True,Optimization terminated successfully
+17:1532:PS1:accumulator,17,task_gradient,2,,False,True,empty_residual_support
+17:828:PS1+TS3:accumulator,17,task_gradient,2,TS3,True,True,Optimization terminated successfully
+17:368:PS1+CE:accumulator,17,task_gradient,2,CE,True,True,Optimization terminated successfully
+17:379:FS1+FS2:pump,17,task_gradient,2,FS2,True,True,Optimization terminated successfully
+17:1926:FS1+FS2:accumulator,17,task_gradient,2,FS2,True,True,Optimization terminated successfully
+17:1532:PS1:accumulator,17,task_gradient,3,,False,True,empty_residual_support
+17:1692:PS2:valve,17,task_gradient,3,,False,True,empty_residual_support
+17:828:PS1+TS3:accumulator,17,task_gradient,3,TS3,True,True,Optimization terminated successfully
+17:368:PS1+CE:accumulator,17,task_gradient,3,CE,True,True,Optimization terminated successfully
+17:379:FS1+FS2:pump,17,task_gradient,3,FS2,True,True,Optimization terminated successfully
+17:1926:FS1+FS2:accumulator,17,task_gradient,3,FS2,True,True,Optimization terminated successfully
+17:1194:PS4+EPS1:accumulator,17,local_margin,1,PS4,False,True,Optimization terminated successfully
+17:2085:PS5+EPS1:pump,17,local_margin,1,PS5,True,True,Optimization terminated successfully
+17:365:PS5+EPS1:accumulator,17,local_margin,1,PS5,False,True,Optimization terminated successfully
+17:1610:EPS1+TS1:accumulator,17,local_margin,1,TS1,True,True,Optimization terminated successfully
+17:1286:EPS1+TS2:accumulator,17,local_margin,1,TS2,True,True,Optimization terminated successfully
+17:1694:EPS1+TS3:valve,17,local_margin,1,TS3,True,True,Optimization terminated successfully
+17:1908:EPS1+TS3:accumulator,17,local_margin,1,TS3,False,True,Optimization terminated successfully
+17:1154:PS3+PS4:accumulator,17,local_margin,2,PS3,True,True,Optimization terminated successfully
+17:495:PS4+PS6:valve,17,local_margin,2,PS6,True,True,Optimization terminated successfully
+17:1194:PS4+EPS1:accumulator,17,local_margin,2,,False,True,empty_residual_support
+17:2085:PS5+EPS1:pump,17,local_margin,2,PS5,True,True,Optimization terminated successfully
+17:365:PS5+EPS1:accumulator,17,local_margin,2,PS5,False,True,Optimization terminated successfully
+17:1610:EPS1+TS1:accumulator,17,local_margin,2,TS1,True,True,Optimization terminated successfully
+17:1286:EPS1+TS2:accumulator,17,local_margin,2,TS2,True,True,Optimization terminated successfully
+17:1694:EPS1+TS3:valve,17,local_margin,2,TS3,True,True,Optimization terminated successfully
+17:1908:EPS1+TS3:accumulator,17,local_margin,2,TS3,False,True,Optimization terminated successfully
+17:1154:PS3+PS4:accumulator,17,local_margin,3,PS3,True,True,Optimization terminated successfully
+17:495:PS4+PS6:valve,17,local_margin,3,PS6,True,True,Optimization terminated successfully
+17:1194:PS4+EPS1:accumulator,17,local_margin,3,,False,True,empty_residual_support
+17:2085:PS5+EPS1:pump,17,local_margin,3,PS5,True,True,Optimization terminated successfully
+17:365:PS5+EPS1:accumulator,17,local_margin,3,PS5,False,True,Optimization terminated successfully
+17:1610:EPS1+TS1:accumulator,17,local_margin,3,TS1,True,True,Optimization terminated successfully
+17:1286:EPS1+TS2:accumulator,17,local_margin,3,TS2,True,True,Optimization terminated successfully
+17:1694:EPS1+TS3:valve,17,local_margin,3,TS3,True,True,Optimization terminated successfully
+17:1908:EPS1+TS3:accumulator,17,local_margin,3,TS3,False,True,Optimization terminated successfully
+17:379:FS1+FS2:pump,17,local_margin,3,FS2,True,True,Optimization terminated successfully
+17:1926:FS1+FS2:accumulator,17,local_margin,3,FS2,True,True,Optimization terminated successfully
+17:1532:PS1:accumulator,17,finite_audit_guided,1,,False,True,empty_residual_support
+17:828:PS1+TS3:accumulator,17,finite_audit_guided,1,TS3,True,True,Optimization terminated successfully
+17:368:PS1+CE:accumulator,17,finite_audit_guided,1,CE,True,True,Optimization terminated successfully
+17:1532:PS1:accumulator,17,finite_audit_guided,2,,False,True,empty_residual_support
+17:828:PS1+TS3:accumulator,17,finite_audit_guided,2,TS3,True,True,Optimization terminated successfully
+17:368:PS1+CE:accumulator,17,finite_audit_guided,2,CE,True,True,Optimization terminated successfully
+17:379:FS1+FS2:pump,17,finite_audit_guided,2,FS2,True,True,Optimization terminated successfully
+17:1926:FS1+FS2:accumulator,17,finite_audit_guided,2,FS2,True,True,Optimization terminated successfully
+17:1532:PS1:accumulator,17,finite_audit_guided,3,,False,True,empty_residual_support
+17:855:VS1:accumulator,17,finite_audit_guided,3,,False,True,empty_residual_support
+17:828:PS1+TS3:accumulator,17,finite_audit_guided,3,TS3,True,True,Optimization terminated successfully
+17:368:PS1+CE:accumulator,17,finite_audit_guided,3,CE,True,True,Optimization terminated successfully
+17:379:FS1+FS2:pump,17,finite_audit_guided,3,FS2,True,True,Optimization terminated successfully
+17:1926:FS1+FS2:accumulator,17,finite_audit_guided,3,FS2,True,True,Optimization terminated successfully
+29:1407:PS3:accumulator,29,random,1,,False,True,empty_residual_support
+29:1200:PS3+SE:accumulator,29,random,1,SE,True,True,Iteration limit reached
+29:1407:PS3:accumulator,29,random,2,,False,True,empty_residual_support
+29:1200:PS3+SE:accumulator,29,random,2,SE,True,True,Iteration limit reached
+29:1242:EPS1+TS1:accumulator,29,random,2,EPS1,True,True,Optimization terminated successfully
+29:1337:TS1+CE:accumulator,29,random,2,CE,True,True,Optimization terminated successfully
+29:1407:PS3:accumulator,29,random,3,,False,True,empty_residual_support
+29:1200:PS3+SE:accumulator,29,random,3,SE,True,True,Iteration limit reached
+29:1242:EPS1+TS1:accumulator,29,random,3,EPS1,True,True,Optimization terminated successfully
+29:1337:TS1+CE:accumulator,29,random,3,CE,True,True,Optimization terminated successfully
+29:1200:PS3+SE:accumulator,29,conditioning,1,PS3,True,True,Optimization terminated successfully
+29:640:TS3+SE:accumulator,29,conditioning,1,TS3,True,True,Optimization terminated successfully
+29:1200:PS3+SE:accumulator,29,conditioning,2,PS3,True,True,Optimization terminated successfully
+29:640:TS3+SE:accumulator,29,conditioning,2,TS3,True,True,Optimization terminated successfully
+29:1200:PS3+SE:accumulator,29,conditioning,3,PS3,True,True,Optimization terminated successfully
+29:649:FS1+FS2:accumulator,29,conditioning,3,FS2,True,True,Optimization terminated successfully
+29:640:TS3+SE:accumulator,29,conditioning,3,TS3,True,True,Optimization terminated successfully
+29:238:PS1:pump,29,task_gradient,1,,False,True,empty_residual_support
+29:1862:PS1:accumulator,29,task_gradient,1,,False,True,empty_residual_support
+29:238:PS1:pump,29,task_gradient,2,,False,True,empty_residual_support
+29:1862:PS1:accumulator,29,task_gradient,2,,False,True,empty_residual_support
+29:1242:EPS1+TS1:accumulator,29,task_gradient,2,TS1,True,True,Optimization terminated successfully
+29:1200:EPS1+TS2:accumulator,29,task_gradient,2,TS2,True,True,Optimization terminated successfully
+29:426:EPS1+TS3:accumulator,29,task_gradient,2,TS3,False,True,Optimization terminated successfully
+29:238:PS1:pump,29,task_gradient,3,,False,True,empty_residual_support
+29:1862:PS1:accumulator,29,task_gradient,3,,False,True,empty_residual_support
+29:1242:EPS1+TS1:accumulator,29,task_gradient,3,TS1,True,True,Optimization terminated successfully
+29:1200:EPS1+TS2:accumulator,29,task_gradient,3,TS2,True,True,Optimization terminated successfully
+29:426:EPS1+TS3:accumulator,29,task_gradient,3,TS3,False,True,Optimization terminated successfully
+29:1242:EPS1+TS1:accumulator,29,local_margin,1,EPS1,True,True,Optimization terminated successfully
+29:1337:TS1+CE:accumulator,29,local_margin,1,CE,True,True,Optimization terminated successfully
+29:1242:EPS1+TS1:accumulator,29,local_margin,2,EPS1,True,True,Optimization terminated successfully
+29:1337:TS1+CE:accumulator,29,local_margin,2,CE,True,True,Optimization terminated successfully
+29:1242:EPS1+TS1:accumulator,29,local_margin,3,,False,True,empty_residual_support
+29:1200:EPS1+TS2:accumulator,29,local_margin,3,TS2,True,True,Optimization terminated successfully
+29:426:EPS1+TS3:accumulator,29,local_margin,3,TS3,False,True,Optimization terminated successfully
+29:1337:TS1+CE:accumulator,29,local_margin,3,CE,True,True,Optimization terminated successfully
+29:238:PS1:pump,29,finite_audit_guided,1,,False,True,empty_residual_support
+29:1862:PS1:accumulator,29,finite_audit_guided,1,,False,True,empty_residual_support
+29:238:PS1:pump,29,finite_audit_guided,2,,False,True,empty_residual_support
+29:1862:PS1:accumulator,29,finite_audit_guided,2,,False,True,empty_residual_support
+29:1337:TS1+CE:accumulator,29,finite_audit_guided,2,TS1,True,True,Optimization terminated successfully
+29:238:PS1:pump,29,finite_audit_guided,3,,False,True,empty_residual_support
+29:1862:PS1:accumulator,29,finite_audit_guided,3,,False,True,empty_residual_support
+29:649:FS1+FS2:accumulator,29,finite_audit_guided,3,FS2,True,True,Optimization terminated successfully
+29:1337:TS1+CE:accumulator,29,finite_audit_guided,3,TS1,True,True,Optimization terminated successfully
+43:1191:FS1+FS2:accumulator,43,random,1,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,random,1,TS4,True,True,Optimization terminated successfully
+43:1191:FS1+FS2:accumulator,43,random,2,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,random,2,,False,True,empty_residual_support
+43:1584:EPS1+TS3:accumulator,43,random,3,EPS1,True,True,Optimization terminated successfully
+43:1191:FS1+FS2:accumulator,43,random,3,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,random,3,,False,True,empty_residual_support
+43:544:PS3+SE:accumulator,43,conditioning,1,PS3,True,True,Optimization terminated successfully
+43:544:PS3+SE:accumulator,43,conditioning,2,PS3,True,True,Optimization terminated successfully
+43:822:PS3:cooler,43,conditioning,3,,False,True,empty_residual_support
+43:1191:PS3:accumulator,43,conditioning,3,,False,True,empty_residual_support
+43:841:PS3+PS4:accumulator,43,conditioning,3,PS4,True,True,Optimization terminated successfully
+43:544:PS3+SE:accumulator,43,conditioning,3,,False,True,empty_residual_support
+43:1191:FS1+FS2:accumulator,43,task_gradient,1,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,task_gradient,1,TS4,True,True,Optimization terminated successfully
+43:670:PS1:accumulator,43,task_gradient,2,,False,True,empty_residual_support
+43:1191:FS1+FS2:accumulator,43,task_gradient,2,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,task_gradient,2,TS4,True,True,Optimization terminated successfully
+43:670:PS1:accumulator,43,task_gradient,3,,False,True,empty_residual_support
+43:1825:PS4+EPS1:pump,43,task_gradient,3,PS4,True,True,Optimization terminated successfully
+43:408:PS5+EPS1:accumulator,43,task_gradient,3,PS5,False,True,Optimization terminated successfully
+43:676:EPS1+TS1:accumulator,43,task_gradient,3,TS1,True,True,Optimization terminated successfully
+43:1191:EPS1+TS2:accumulator,43,task_gradient,3,TS2,False,True,Optimization terminated successfully
+43:1584:EPS1+TS3:accumulator,43,task_gradient,3,TS3,True,True,Optimization terminated successfully
+43:1191:FS1+FS2:accumulator,43,task_gradient,3,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,task_gradient,3,TS4,True,True,Optimization terminated successfully
+43:1825:PS4+EPS1:pump,43,local_margin,1,PS4,True,True,Optimization terminated successfully
+43:408:PS5+EPS1:accumulator,43,local_margin,1,PS5,False,True,Optimization terminated successfully
+43:676:EPS1+TS1:accumulator,43,local_margin,1,TS1,True,True,Optimization terminated successfully
+43:1191:EPS1+TS2:accumulator,43,local_margin,1,TS2,False,True,Optimization terminated successfully
+43:1584:EPS1+TS3:accumulator,43,local_margin,1,TS3,True,True,Optimization terminated successfully
+43:841:PS3+PS4:accumulator,43,local_margin,2,PS3,True,True,Optimization terminated successfully
+43:1825:PS4+EPS1:pump,43,local_margin,2,,False,True,empty_residual_support
+43:408:PS5+EPS1:accumulator,43,local_margin,2,PS5,False,True,Optimization terminated successfully
+43:676:EPS1+TS1:accumulator,43,local_margin,2,TS1,True,True,Optimization terminated successfully
+43:1191:EPS1+TS2:accumulator,43,local_margin,2,TS2,False,True,Optimization terminated successfully
+43:1584:EPS1+TS3:accumulator,43,local_margin,2,TS3,True,True,Optimization terminated successfully
+43:841:PS3+PS4:accumulator,43,local_margin,3,PS3,True,True,Optimization terminated successfully
+43:1825:PS4+EPS1:pump,43,local_margin,3,,False,True,empty_residual_support
+43:408:PS5+EPS1:accumulator,43,local_margin,3,PS5,False,True,Optimization terminated successfully
+43:676:EPS1+TS1:accumulator,43,local_margin,3,TS1,True,True,Optimization terminated successfully
+43:1191:EPS1+TS2:accumulator,43,local_margin,3,TS2,False,True,Optimization terminated successfully
+43:1584:EPS1+TS3:accumulator,43,local_margin,3,TS3,True,True,Optimization terminated successfully
+43:1191:FS1+FS2:accumulator,43,local_margin,3,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,local_margin,3,TS4,True,True,Optimization terminated successfully
+43:1191:FS1+FS2:accumulator,43,finite_audit_guided,1,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,finite_audit_guided,1,TS4,True,True,Optimization terminated successfully
+43:670:PS1:accumulator,43,finite_audit_guided,2,,False,True,empty_residual_support
+43:1191:FS1+FS2:accumulator,43,finite_audit_guided,2,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,finite_audit_guided,2,TS4,True,True,Optimization terminated successfully
+43:670:PS1:accumulator,43,finite_audit_guided,3,,False,True,empty_residual_support
+43:1825:PS4+EPS1:pump,43,finite_audit_guided,3,PS4,True,True,Optimization terminated successfully
+43:408:PS5+EPS1:accumulator,43,finite_audit_guided,3,PS5,False,True,Optimization terminated successfully
+43:676:EPS1+TS1:accumulator,43,finite_audit_guided,3,TS1,True,True,Optimization terminated successfully
+43:1191:EPS1+TS2:accumulator,43,finite_audit_guided,3,TS2,False,True,Optimization terminated successfully
+43:1584:EPS1+TS3:accumulator,43,finite_audit_guided,3,TS3,True,True,Optimization terminated successfully
+43:1191:FS1+FS2:accumulator,43,finite_audit_guided,3,FS2,False,True,Optimization terminated successfully
+43:516:FS1+TS4:accumulator,43,finite_audit_guided,3,TS4,True,True,Optimization terminated successfully
+71:1246:PS1+TS3:pump,71,random,1,PS1,True,True,Optimization terminated successfully
+71:1596:EPS1+TS3:accumulator,71,random,1,EPS1,True,True,Optimization terminated successfully
+71:1246:PS1+TS3:pump,71,random,2,PS1,True,True,Optimization terminated successfully
+71:1596:EPS1+TS3:accumulator,71,random,2,EPS1,True,True,Optimization terminated successfully
+71:1553:FS1+TS4:accumulator,71,random,2,FS1,True,True,Optimization terminated successfully
+71:620:TS4+SE:accumulator,71,random,2,SE,True,True,Iteration limit reached
+71:1246:PS1+TS3:pump,71,random,3,PS1,True,True,Optimization terminated successfully
+71:1505:EPS1+TS1:accumulator,71,random,3,EPS1,True,True,Optimization terminated successfully
+71:1596:EPS1+TS3:accumulator,71,random,3,EPS1,True,True,Optimization terminated successfully
+71:1553:FS1+TS4:accumulator,71,random,3,FS1,True,True,Optimization terminated successfully
+71:620:TS4+SE:accumulator,71,random,3,SE,True,True,Iteration limit reached
+71:2107:PS3+SE:pump,71,conditioning,1,PS3,True,True,Optimization terminated successfully
+71:1160:PS3+SE:accumulator,71,conditioning,1,PS3,True,True,Optimization terminated successfully
+71:620:TS4+SE:accumulator,71,conditioning,1,TS4,True,True,Optimization terminated successfully
+71:2107:PS3+SE:pump,71,conditioning,2,PS3,True,True,Optimization terminated successfully
+71:1160:PS3+SE:accumulator,71,conditioning,2,PS3,True,True,Optimization terminated successfully
+71:620:TS4+SE:accumulator,71,conditioning,2,TS4,True,True,Optimization terminated successfully
+71:716:PS3:accumulator,71,conditioning,3,,False,True,empty_residual_support
+71:2107:PS3+SE:pump,71,conditioning,3,,False,True,empty_residual_support
+71:1160:PS3+SE:accumulator,71,conditioning,3,,False,True,empty_residual_support
+71:620:TS4+SE:accumulator,71,conditioning,3,TS4,True,True,Optimization terminated successfully
+71:1985:FS1+FS2:accumulator,71,task_gradient,1,FS2,True,True,Optimization terminated successfully
+71:1553:FS1+TS4:accumulator,71,task_gradient,1,TS4,True,True,Optimization terminated successfully
+71:1246:PS1+TS3:pump,71,task_gradient,2,TS3,True,True,Optimization terminated successfully
+71:1509:PS1+CE:accumulator,71,task_gradient,2,CE,True,True,Optimization terminated successfully
+71:1985:FS1+FS2:accumulator,71,task_gradient,2,FS2,True,True,Optimization terminated successfully
+71:1553:FS1+TS4:accumulator,71,task_gradient,2,TS4,True,True,Optimization terminated successfully
+71:1246:PS1+TS3:pump,71,task_gradient,3,TS3,True,True,Optimization terminated successfully
+71:1509:PS1+CE:accumulator,71,task_gradient,3,CE,True,True,Optimization terminated successfully
+71:1507:PS4+EPS1:accumulator,71,task_gradient,3,PS4,True,True,Optimization terminated successfully
+71:503:PS5+EPS1:accumulator,71,task_gradient,3,PS5,True,True,Optimization terminated successfully
+71:1505:EPS1+TS1:accumulator,71,task_gradient,3,TS1,True,True,Optimization terminated successfully
+71:2073:EPS1+TS2:pump,71,task_gradient,3,TS2,True,True,Optimization terminated successfully
+71:1428:EPS1+TS2:accumulator,71,task_gradient,3,TS2,True,True,Optimization terminated successfully
+71:1596:EPS1+TS3:accumulator,71,task_gradient,3,TS3,True,True,Optimization terminated successfully
+71:1985:FS1+FS2:accumulator,71,task_gradient,3,FS2,True,True,Optimization terminated successfully
+71:1553:FS1+TS4:accumulator,71,task_gradient,3,TS4,True,True,Optimization terminated successfully
+71:1507:PS4+EPS1:accumulator,71,local_margin,1,EPS1,True,True,Optimization terminated successfully
+71:1507:PS4+EPS1:accumulator,71,local_margin,2,,False,True,empty_residual_support
+71:503:PS5+EPS1:accumulator,71,local_margin,2,PS5,True,True,Optimization terminated successfully
+71:1505:EPS1+TS1:accumulator,71,local_margin,2,TS1,True,True,Optimization terminated successfully
+71:2073:EPS1+TS2:pump,71,local_margin,2,TS2,True,True,Optimization terminated successfully
+71:1428:EPS1+TS2:accumulator,71,local_margin,2,TS2,True,True,Optimization terminated successfully
+71:1596:EPS1+TS3:accumulator,71,local_margin,2,TS3,True,True,Optimization terminated successfully
+71:1246:PS1+TS3:pump,71,local_margin,3,TS3,True,True,Optimization terminated successfully
+71:1509:PS1+CE:accumulator,71,local_margin,3,CE,True,True,Optimization terminated successfully
+71:1507:PS4+EPS1:accumulator,71,local_margin,3,,False,True,empty_residual_support
+71:503:PS5+EPS1:accumulator,71,local_margin,3,PS5,True,True,Optimization terminated successfully
+71:1505:EPS1+TS1:accumulator,71,local_margin,3,TS1,True,True,Optimization terminated successfully
+71:2073:EPS1+TS2:pump,71,local_margin,3,TS2,True,True,Optimization terminated successfully
+71:1428:EPS1+TS2:accumulator,71,local_margin,3,TS2,True,True,Optimization terminated successfully
+71:1596:EPS1+TS3:accumulator,71,local_margin,3,TS3,True,True,Optimization terminated successfully
+71:1246:PS1+TS3:pump,71,finite_audit_guided,1,TS3,True,True,Optimization terminated successfully
+71:1509:PS1+CE:accumulator,71,finite_audit_guided,1,CE,True,True,Optimization terminated successfully
+71:1246:PS1+TS3:pump,71,finite_audit_guided,2,TS3,True,True,Optimization terminated successfully
+71:1509:PS1+CE:accumulator,71,finite_audit_guided,2,CE,True,True,Optimization terminated successfully
+71:1632:PS5+TS2:accumulator,71,finite_audit_guided,2,PS5,True,True,Optimization terminated successfully
+71:2073:EPS1+TS2:pump,71,finite_audit_guided,2,EPS1,True,True,Optimization terminated successfully
+71:1428:EPS1+TS2:accumulator,71,finite_audit_guided,2,EPS1,True,True,Optimization terminated successfully
+71:1639:VS1:accumulator,71,finite_audit_guided,3,,False,True,empty_residual_support
+71:1246:PS1+TS3:pump,71,finite_audit_guided,3,TS3,True,True,Optimization terminated successfully
+71:1509:PS1+CE:accumulator,71,finite_audit_guided,3,CE,True,True,Optimization terminated successfully
+71:1632:PS5+TS2:accumulator,71,finite_audit_guided,3,PS5,True,True,Optimization terminated successfully
+71:2073:EPS1+TS2:pump,71,finite_audit_guided,3,EPS1,True,True,Optimization terminated successfully
+71:1428:EPS1+TS2:accumulator,71,finite_audit_guided,3,EPS1,True,True,Optimization terminated successfully
+101:1138:PS1:accumulator,101,random,2,,False,True,empty_residual_support
+101:1827:PS1+TS3:valve,101,random,2,TS3,True,True,Optimization terminated successfully
+101:1868:PS1+CE:valve,101,random,2,CE,True,True,Optimization terminated successfully
+101:1388:PS1+CE:accumulator,101,random,2,CE,True,True,Optimization terminated successfully
+101:1138:PS1:accumulator,101,random,3,,False,True,empty_residual_support
+101:1827:PS1+TS3:valve,101,random,3,,False,True,empty_residual_support
+101:1868:PS1+CE:valve,101,random,3,CE,True,True,Optimization terminated successfully
+101:1388:PS1+CE:accumulator,101,random,3,CE,True,True,Optimization terminated successfully
+101:411:EPS1+TS3:accumulator,101,random,3,EPS1,True,True,Optimization terminated successfully
+101:1130:SE:valve,101,conditioning,1,,False,True,empty_residual_support
+101:1349:SE:pump,101,conditioning,1,,False,True,empty_residual_support
+101:362:PS3+SE:pump,101,conditioning,1,PS3,True,True,Optimization terminated successfully
+101:1130:PS3+SE:accumulator,101,conditioning,1,PS3,True,True,Optimization terminated successfully
+101:1130:SE:valve,101,conditioning,2,,False,True,empty_residual_support
+101:1349:SE:pump,101,conditioning,2,,False,True,empty_residual_support
+101:362:PS3+SE:pump,101,conditioning,2,PS3,True,True,Optimization terminated successfully
+101:1130:PS3+SE:accumulator,101,conditioning,2,PS3,True,True,Optimization terminated successfully
+101:1130:SE:valve,101,conditioning,3,,False,True,empty_residual_support
+101:1349:SE:pump,101,conditioning,3,,False,True,empty_residual_support
+101:1831:PS3+PS4:accumulator,101,conditioning,3,PS4,True,True,Optimization terminated successfully
+101:362:PS3+SE:pump,101,conditioning,3,,False,True,empty_residual_support
+101:1130:PS3+SE:accumulator,101,conditioning,3,,False,True,empty_residual_support
+101:1824:FS1+FS2:pump,101,task_gradient,1,FS2,True,True,Optimization terminated successfully
+101:375:FS1+FS2:accumulator,101,task_gradient,1,FS2,True,True,Optimization terminated successfully
+101:1388:FS1+TS4:accumulator,101,task_gradient,1,TS4,True,True,Optimization terminated successfully
+101:1138:PS1:accumulator,101,task_gradient,2,,False,True,empty_residual_support
+101:1827:PS1+TS3:valve,101,task_gradient,2,TS3,True,True,Optimization terminated successfully
+101:1868:PS1+CE:valve,101,task_gradient,2,CE,True,True,Optimization terminated successfully
+101:1388:PS1+CE:accumulator,101,task_gradient,2,CE,True,True,Optimization terminated successfully
+101:1824:FS1+FS2:pump,101,task_gradient,2,FS2,True,True,Optimization terminated successfully
+101:375:FS1+FS2:accumulator,101,task_gradient,2,FS2,True,True,Optimization terminated successfully
+101:1388:FS1+TS4:accumulator,101,task_gradient,2,TS4,True,True,Optimization terminated successfully
+101:1138:PS1:accumulator,101,task_gradient,3,,False,True,empty_residual_support
+101:1827:PS1+TS3:valve,101,task_gradient,3,TS3,True,True,Optimization terminated successfully
+101:1868:PS1+CE:valve,101,task_gradient,3,CE,True,True,Optimization terminated successfully
+101:1388:PS1+CE:accumulator,101,task_gradient,3,CE,True,True,Optimization terminated successfully
+101:421:PS4+EPS1:accumulator,101,task_gradient,3,PS4,False,True,Optimization terminated successfully
+101:1860:PS5+EPS1:valve,101,task_gradient,3,PS5,True,True,Optimization terminated successfully
+101:1604:PS5+EPS1:accumulator,101,task_gradient,3,PS5,True,True,Optimization terminated successfully
+101:377:EPS1+TS1:accumulator,101,task_gradient,3,TS1,False,True,Optimization terminated successfully
+101:411:EPS1+TS3:accumulator,101,task_gradient,3,TS3,False,True,Optimization terminated successfully
+101:1824:FS1+FS2:pump,101,task_gradient,3,FS2,True,True,Optimization terminated successfully
+101:375:FS1+FS2:accumulator,101,task_gradient,3,FS2,True,True,Optimization terminated successfully
+101:1388:FS1+TS4:accumulator,101,task_gradient,3,TS4,True,True,Optimization terminated successfully
+101:1831:PS3+PS4:accumulator,101,local_margin,1,PS3,True,True,Optimization terminated successfully
+101:1389:PS4+PS6:accumulator,101,local_margin,1,PS6,True,True,Optimization terminated successfully
+101:421:PS4+EPS1:accumulator,101,local_margin,1,EPS1,True,True,Optimization terminated successfully
+101:1831:PS3+PS4:accumulator,101,local_margin,2,PS3,True,True,Optimization terminated successfully
+101:1389:PS4+PS6:accumulator,101,local_margin,2,PS6,True,True,Optimization terminated successfully
+101:421:PS4+EPS1:accumulator,101,local_margin,2,EPS1,True,True,Optimization terminated successfully
+101:1824:FS1+FS2:pump,101,local_margin,2,FS2,True,True,Optimization terminated successfully
+101:375:FS1+FS2:accumulator,101,local_margin,2,FS2,True,True,Optimization terminated successfully
+101:1388:FS1+TS4:accumulator,101,local_margin,2,TS4,True,True,Optimization terminated successfully
+101:1831:PS3+PS4:accumulator,101,local_margin,3,PS3,True,True,Optimization terminated successfully
+101:1389:PS4+PS6:accumulator,101,local_margin,3,PS6,True,True,Optimization terminated successfully
+101:421:PS4+EPS1:accumulator,101,local_margin,3,EPS1,True,True,Optimization terminated successfully
+101:377:EPS1+TS1:accumulator,101,local_margin,3,EPS1,True,True,Optimization terminated successfully
+101:1824:FS1+FS2:pump,101,local_margin,3,FS2,True,True,Optimization terminated successfully
+101:375:FS1+FS2:accumulator,101,local_margin,3,FS2,True,True,Optimization terminated successfully
+101:1388:FS1+TS4:accumulator,101,local_margin,3,TS4,True,True,Optimization terminated successfully
+101:1643:TS1+CE:accumulator,101,local_margin,3,CE,True,True,Optimization terminated successfully
+101:1138:PS1:accumulator,101,finite_audit_guided,1,,False,True,empty_residual_support
+101:1827:PS1+TS3:valve,101,finite_audit_guided,1,TS3,True,True,Optimization terminated successfully
+101:1868:PS1+CE:valve,101,finite_audit_guided,1,CE,True,True,Optimization terminated successfully
+101:1388:PS1+CE:accumulator,101,finite_audit_guided,1,CE,True,True,Optimization terminated successfully
+101:1138:PS1:accumulator,101,finite_audit_guided,2,,False,True,empty_residual_support
+101:1827:PS1+TS3:valve,101,finite_audit_guided,2,TS3,True,True,Optimization terminated successfully
+101:1868:PS1+CE:valve,101,finite_audit_guided,2,,False,True,empty_residual_support
+101:1388:PS1+CE:accumulator,101,finite_audit_guided,2,,False,True,empty_residual_support
+101:1643:TS1+CE:accumulator,101,finite_audit_guided,2,TS1,True,True,Optimization terminated successfully
+101:1138:PS1:accumulator,101,finite_audit_guided,3,,False,True,empty_residual_support
+101:1827:PS1+TS3:valve,101,finite_audit_guided,3,TS3,True,True,Optimization terminated successfully
+101:1868:PS1+CE:valve,101,finite_audit_guided,3,,False,True,empty_residual_support
+101:1388:PS1+CE:accumulator,101,finite_audit_guided,3,,False,True,empty_residual_support
+101:1824:FS1+FS2:pump,101,finite_audit_guided,3,FS2,True,True,Optimization terminated successfully
+101:375:FS1+FS2:accumulator,101,finite_audit_guided,3,FS2,True,True,Optimization terminated successfully
+101:1388:FS1+TS4:accumulator,101,finite_audit_guided,3,TS4,True,True,Optimization terminated successfully
+101:1643:TS1+CE:accumulator,101,finite_audit_guided,3,TS1,True,True,Optimization terminated successfully

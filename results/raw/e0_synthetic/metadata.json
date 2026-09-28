@@ -1,0 +1,35 @@
+{
+  "seed": 20270916,
+  "repetitions": 1000,
+  "alphas": [
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.55
+  ],
+  "horizons": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "blind_manifold": {
+    "gamma": 0.0,
+    "harmful_nullspace_score": 3.5355339059327373,
+    "attack_x1": 1.0000000000000002,
+    "attack_x2": 1.0000000000000002,
+    "monitor_shift": 0.0,
+    "task_shift": 5.000000000000002,
+    "exactly_blind": true
+  },
+  "model": {
+    "raw_mean_shift": "delta",
+    "monitor_mean_shift": "delta^2",
+    "variance": 1.0
+  }
+}

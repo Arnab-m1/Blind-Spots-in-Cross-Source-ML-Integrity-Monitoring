@@ -1,0 +1,37 @@
+{
+  "protocol": {
+    "protocol_version": "2026-09-21-p3-metric-v1",
+    "seeds": [
+      17,
+      29,
+      43,
+      71,
+      101
+    ],
+    "monitor_dimension": 8,
+    "ranking_budgets": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "bootstrap_repetitions": 10000,
+    "bootstrap_seed": 2027,
+    "covariance_floor": 1e-10,
+    "metrics": [
+      "gamma_standardized_identity",
+      "gamma_diagonal",
+      "gamma_shrinkage_full",
+      "task_gradient",
+      "alarm_slack",
+      "scalar_alarm_margin"
+    ]
+  },
+  "cases": 680,
+  "standardized_identity_diagonal_max_difference": 9.410122101068659,
+  "scalar_first_order_blind_fraction": 1.0,
+  "full_covariance_condition_range": [
+    1.0095305916787745,
+    1.0389117582938194
+  ]
+}

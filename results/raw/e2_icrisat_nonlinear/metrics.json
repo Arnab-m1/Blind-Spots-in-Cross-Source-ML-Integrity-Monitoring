@@ -1,0 +1,19 @@
+{
+  "seed": 43,
+  "residual_weight": 1.0,
+  "rows": {
+    "train": 7679,
+    "validation": 888,
+    "test": 2002
+  },
+  "clean": {
+    "r2": 0.6192261854318675,
+    "mae": 0.48067850900366027,
+    "rmse": 0.6644395527215341,
+    "monitor_fpr": 0.05044955044955045
+  },
+  "certificates": 62062,
+  "blind_fraction": 0.0,
+  "gamma_harm_spearman": -0.44277673545966234,
+  "runtime_seconds": 72.87508169899957
+}

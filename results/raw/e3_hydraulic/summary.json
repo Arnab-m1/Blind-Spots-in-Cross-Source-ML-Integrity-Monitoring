@@ -1,0 +1,15 @@
+{
+  "seeds": [
+    17,
+    29,
+    43,
+    71,
+    101
+  ],
+  "cycles": 2205,
+  "sources": 17,
+  "features": 85,
+  "linear_balanced_accuracy_mean": 0.7905777379127512,
+  "mlp_balanced_accuracy_mean": 0.9142480647928662,
+  "monitor_test_fpr_mean": 0.0806896551724138
+}

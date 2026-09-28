@@ -1,0 +1,5 @@
+dataset,sources,task_model,clean_quality,metric
+ICRISAT,5,ridge,0.49089706063822836,R2
+ICRISAT,5,contextual nonlinear,0.5955756485230993,R2
+Hydraulic,17,ridge multi-output,0.7905777379127512,balanced accuracy
+Hydraulic,17,shared MLP,0.9142480647928662,balanced accuracy

@@ -1,0 +1,3 @@
+monitor,spearman_min,spearman_median,spearman_max,vulnerable_min,vulnerable_median,vulnerable_max,blind_total
+gdn,-0.6754051975191557,-0.4594938985240289,-0.22932483473001292,24,28.5,34,0
+tranad,-0.6549582038520714,-0.408287290713509,-0.3245800706237443,24,30.5,39,0

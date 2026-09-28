@@ -1,0 +1,23 @@
+{
+  "seed": 2027,
+  "bootstrap_repetitions": 2000,
+  "resampling_unit": {
+    "icrisat": "test row",
+    "hydraulic": "sensor support"
+  },
+  "interpretation": "design-based audit uncertainty for fixed fitted models; not population confidence intervals",
+  "icrisat_gamma_harm_spearman": [
+    -0.44277673545966234,
+    [
+      -0.7138913530098031,
+      -0.09779330394028306
+    ]
+  ],
+  "hydraulic_gamma_harm_spearman": [
+    -0.07494958692928425,
+    [
+      -0.20160877411688538,
+      0.03618860705195414
+    ]
+  ]
+}

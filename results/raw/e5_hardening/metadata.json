@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "features": [
+    "rainfall",
+    "temperature",
+    "irrigation",
+    "fertilizer",
+    "acreage"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "Condition Monitoring of Hydraulic Systems",
+  "role": "physical multi-sensor condition-monitoring evaluation",
+  "source": "UCI Machine Learning Repository",
+  "source_url": "https://archive.ics.uci.edu/dataset/447/condition+monitoring+of+hydraulic+systems",
+  "source_doi": "10.24432/C5CW21",
+  "license": "CC BY 4.0",
+  "raw_file": "raw.zip",
+  "raw_sha256": "24128aad2ee45eea7e6b63ebbd9992cdf25d0483a2cebefbfc13bc69079af1f2",
+  "raw_bytes": 76796606,
+  "archive_integrity": "unzip -t passed on 2026-09-16",
+  "retrieval_date": "2026-09-16",
+  "expected_cycles": 2205,
+  "notes": "Treat each physical sensor trace as one source block; do not treat time samples as independent sources."
+}

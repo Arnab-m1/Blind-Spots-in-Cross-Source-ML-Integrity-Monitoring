@@ -1,0 +1,16 @@
+{
+  "dataset": "Village Dynamics in South Asia Meso-level Data for India",
+  "role": "real-data calibration and crop-yield ML evaluation",
+  "source_doi": "10.17632/ywp3y5j9vv.1",
+  "license": "CC BY 4.0",
+  "raw_file": "raw.xls",
+  "raw_sha256": "e972b837b29298b8f06cda6fe7ea982d90a7a97a66e9a07fc72df3b66680318d",
+  "raw_bytes": 23739904,
+  "retrieval_date": null,
+  "retrieval_timing": "Retrieved before the first submission of this work; the exact calendar date is unavailable.",
+  "first_known_local_file_timestamp": "2026-06-28T11:47:54Z",
+  "timestamp_semantics": "Filesystem modification time of the preserved raw workbook; recorded for traceability but not asserted as the retrieval date.",
+  "processed_file": "panel.csv",
+  "processed_sha256": "6a0c82f12a299369dd44e9980c67de39f861a26455f80ef7aee859cc64ec9b5c",
+  "notes": "The dataset does not contain attack labels."
+}

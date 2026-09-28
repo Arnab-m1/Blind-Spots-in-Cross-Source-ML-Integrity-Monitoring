@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export PYTHONPATH="$ROOT/.deps:$ROOT/src"
+export MPLCONFIGDIR="${TMPDIR:-/tmp}/matplotlib-satml"
+export MPLBACKEND=Agg
+
+python3 -m unittest discover -s "$ROOT/tests" -v
+python3 "$ROOT/experiments/e0_synthetic/run.py"
+python3 "$ROOT/experiments/e0_synthetic/plot.py"
+python3 "$ROOT/experiments/e3_hydraulic/preprocess.py"
+python3 "$ROOT/experiments/e1_icrisat_linear/run.py"
+python3 "$ROOT/experiments/e2_icrisat_nonlinear/run.py"
+python3 "$ROOT/experiments/e2_icrisat_nonlinear/stability_frontier.py"
+python3 "$ROOT/experiments/e3_hydraulic/run.py"
+python3 "$ROOT/experiments/e3_hydraulic/attacks.py"
+python3 "$ROOT/experiments/e3_hydraulic/stability.py"
+python3 "$ROOT/experiments/e3_hydraulic/matched_security.py"
+python3 "$ROOT/experiments/e3_hydraulic/prioritization.py"
+python3 "$ROOT/experiments/e4_graybox/run.py"
+python3 "$ROOT/experiments/e5_hardening/run.py"
+python3 "$ROOT/experiments/e5_hardening/hydraulic.py"
+python3 "$ROOT/experiments/e6_external_monitors/preprocess.py"
+python3 "$ROOT/experiments/e6_external_monitors/run.py"
+python3 "$ROOT/experiments/e6_external_monitors/stability.py"
+python3 "$ROOT/experiments/e6_external_monitors/aggregate_stability.py"
+python3 "$ROOT/experiments/e6_external_monitors/plot.py"
+python3 "$ROOT/experiments/e7_defender_decision/run.py"
+python3 "$ROOT/experiments/e8_metric_robustness/run.py"
+python3 "$ROOT/experiments/e9_blind_larger_supports/run.py"
+python3 "$ROOT/experiments/e10_plausibility/run.py"
+python3 "$ROOT/experiments/benchmark.py"
+python3 "$ROOT/experiments/statistical_report.py"
+python3 "$ROOT/experiments/audit.py"

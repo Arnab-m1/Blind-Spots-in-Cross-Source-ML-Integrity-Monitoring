@@ -1,0 +1,20 @@
+{
+  "certificate": {
+    "repeats": 5000,
+    "seconds": 0.3834716710007342,
+    "microseconds_per_call": 76.69433420014684,
+    "failures": 0
+  },
+  "continuation": {
+    "repeats": 100,
+    "seconds": 0.09671835600056511,
+    "microseconds_per_call": 967.1835600056511,
+    "failures": 0
+  },
+  "oracle": {
+    "repeats": 50,
+    "seconds": 0.3331711010005165,
+    "microseconds_per_call": 6663.42202001033,
+    "failures": 0
+  }
+}

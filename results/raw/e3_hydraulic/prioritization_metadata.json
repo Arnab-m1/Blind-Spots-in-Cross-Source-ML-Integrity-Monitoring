@@ -1,0 +1,59 @@
+{
+  "config": {
+    "protocol_version": "2026-09-21-p0c-v1",
+    "status": "exploratory fixed-pool evaluation",
+    "seeds": [
+      17,
+      29,
+      43,
+      71,
+      101
+    ],
+    "monitor_dimension": 8,
+    "validation_alarm_quantile": 0.95,
+    "verification_budgets": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "support_pair_count": 43,
+    "support_sampling_seed": 2027,
+    "development_support_modulus": 3,
+    "development_support_remainder": 0,
+    "state_sampling_seed": 2718,
+    "optimizer": {
+      "method": "SLSQP",
+      "maxiter": 250,
+      "ftol": 1e-09,
+      "constraint_tolerance": 1e-07,
+      "starts": [
+        "zero",
+        "task",
+        "conditioned"
+      ]
+    },
+    "ranking_budgets": [
+      10,
+      25,
+      50,
+      100
+    ],
+    "combined_weight_grid": [
+      0.0,
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "development_average_precision": 0.42972748955246765,
+  "combined_weights": {
+    "gamma": 0.5,
+    "gradient_norm": 0.5,
+    "sigma_min": 0.0,
+    "clean_alarm_slack": 0.0
+  },
+  "cases": 1200,
+  "evaluation_cases": 680,
+  "verified_failures": 94,
+  "invalid_rate": 0.0
+}
